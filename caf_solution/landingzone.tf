@@ -3,6 +3,7 @@ module "solution" {
   version = "~>5.3.2"
 
   # source = "git::https://github.com/aztfmod/terraform-azurerm-caf.git?ref=master"
+  source = "git::https://github.com/swetha-sundar/terraform-azurerm-caf.git?ref=swetha/subnet-vnet-decouple"
   # source = "../../aztfmod"
 
   # azuread                               = var.azuread
